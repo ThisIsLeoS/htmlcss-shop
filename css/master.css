@@ -4,6 +4,7 @@
   display: inline-block;
   height: 372px;
   width: 300px;
+  position: relative;
 }
 
 .ipad-img {
@@ -20,6 +21,8 @@
 
 .percentage-box {
   border: solid;
+  position: absolute;
+  right: 0;
 }
 
 .green-back {
