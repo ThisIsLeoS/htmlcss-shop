@@ -34,5 +34,10 @@
 }
 
 .heart-box {
-  
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  bottom: 0px;
+  left: 130px;
+  z-index: -1;
 }
