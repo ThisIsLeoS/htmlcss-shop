@@ -17,3 +17,15 @@
 .headphones-img {
   background-image: url(../img/headphones.jpg);
 }
+
+.percentage-box {
+  border: solid;
+}
+
+.green-back {
+  background-color: green;
+}
+
+.red-back {
+  background-color: red;
+}
