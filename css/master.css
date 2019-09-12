@@ -41,3 +41,7 @@
   left: 130px;
   z-index: -1;
 }
+
+.item-box:hover > .heart-box {
+  z-index: 1;
+}
