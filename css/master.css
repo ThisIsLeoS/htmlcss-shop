@@ -5,3 +5,15 @@
   height: 372px;
   width: 300px;
 }
+
+.ipad-img {
+  background-image: url(../img/ipad.jpg);
+}
+
+.iphones-img {
+  background-image: url(../img/iphones.jpg);
+}
+
+.headphones-img {
+  background-image: url(../img/headphones.jpg);
+}
