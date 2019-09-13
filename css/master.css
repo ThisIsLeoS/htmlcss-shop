@@ -12,6 +12,11 @@
     z-index: 1;
   }
 
+.percentage-box {
+  position: absolute;
+  right: 0;
+}
+
 .heart-box {
   position: absolute;
   height: 40px;
