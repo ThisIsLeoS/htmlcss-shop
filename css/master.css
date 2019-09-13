@@ -1,3 +1,5 @@
+/* boxes */
+
 .item-box
 {
   display: inline-block;
@@ -5,6 +7,21 @@
   width: 300px;
   position: relative;
 }
+
+  .item-box:hover > .heart-box {
+    z-index: 1;
+  }
+
+.heart-box {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  bottom: 0px;
+  left: 130px;
+  z-index: -1;
+}
+
+/* images */
 
 .ipad-img {
   background-image: url(../img/ipad.jpg);
@@ -18,10 +35,7 @@
   background-image: url(../img/headphones.jpg);
 }
 
-.percentage-box {
-  position: absolute;
-  right: 0;
-}
+/* background colors */
 
 .green-back {
   background-color: green;
@@ -29,17 +43,4 @@
 
 .red-back {
   background-color: red;
-}
-
-.heart-box {
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  bottom: 0px;
-  left: 130px;
-  z-index: -1;
-}
-
-.item-box:hover > .heart-box {
-  z-index: 1;
 }
